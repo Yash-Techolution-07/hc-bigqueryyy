@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "doc_ai_studio_pdfs_extracted_info",
+    "table_name": "Customers",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-05-14T13:37:29.052000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.doc_ai_studio_pdfs_extracted_info.Customers`\n(\n  customer_id STRING NOT NULL,\n  first_name STRING,\n  last_name STRING,\n  email STRING,\n  registration_date DATE,\n  PRIMARY KEY (customer_id) NOT ENFORCED\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
