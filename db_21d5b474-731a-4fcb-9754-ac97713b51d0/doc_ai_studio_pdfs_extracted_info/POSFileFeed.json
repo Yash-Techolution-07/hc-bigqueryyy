@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "doc_ai_studio_pdfs_extracted_info",
+    "table_name": "POSFileFeed",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-05-12T08:32:16.108000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.doc_ai_studio_pdfs_extracted_info.POSFileFeed`\n(\n  DataFeedID INT64 NOT NULL,\n  PERIOD STRING NOT NULL,\n  Retailer STRING NOT NULL,\n  HarperCompany STRING NOT NULL,\n  FileDataType STRING NOT NULL,\n  SalesCountry STRING NOT NULL,\n  MediaFormat STRING NOT NULL,\n  Region STRING,\n  ExtendedName STRING,\n  AccountNumber STRING,\n  Active BOOL,\n  AccrualFeed BOOL,\n  HarperEntity STRING,\n  RecordDataChanges BOOL,\n  ProcessPriority INT64,\n  OutputFilenameFormat STRING,\n  FileMask STRING,\n  OnPremSourceFolder STRING,\n  EITSubPath STRING,\n  PRIMARY KEY (PERIOD, HarperCompany, Retailer, FileDataType, SalesCountry, MediaFormat) NOT ENFORCED\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
