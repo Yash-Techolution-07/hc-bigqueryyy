@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "doc_ai_studio_pdfs_extracted_info",
+    "table_name": "qc_table",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2024-12-20T12:58:00.179000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.doc_ai_studio_pdfs_extracted_info.qc_table`\n(\n  material STRING,\n  material_no STRING,\n  pcs STRING,\n  sales_or_note STRING,\n  c STRING,\n  mn STRING,\n  `avg_area_%` STRING,\n  made_in STRING,\n  melted_in STRING,\n  certification_number STRING,\n  docai_studio_identifier STRING,\n  docai_studio_document_name STRING,\n  heat_no STRING,\n  purchase_order STRING,\n  `shear_area_%` STRING,\n  shear_area STRING,\n  tensile STRING,\n  bundle_no STRING,\n  chemical_composition STRING,\n  CHARPY_test_results STRING,\n  sales_order STRING,\n  material_note STRING,\n  sample_size STRING,\n  temperature STRING\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
