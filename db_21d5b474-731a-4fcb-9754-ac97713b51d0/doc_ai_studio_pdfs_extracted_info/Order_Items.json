@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "doc_ai_studio_pdfs_extracted_info",
+    "table_name": "Order_Items",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-05-14T13:37:33.809000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.doc_ai_studio_pdfs_extracted_info.Order_Items`\n(\n  order_id STRING NOT NULL,\n  product_sku STRING NOT NULL,\n  quantity INT64,\n  unit_price NUMERIC,\n  PRIMARY KEY (order_id, product_sku) NOT ENFORCED,\n  FOREIGN KEY (order_id) REFERENCES `doc-ai-studio.doc_ai_studio_pdfs_extracted_info.Orders`(order_id) NOT ENFORCED\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
